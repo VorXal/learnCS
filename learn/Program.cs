@@ -46,7 +46,6 @@ namespace learn
             for(int i = 0;i < mas.Length; i++)
                 Console.Write(mas[i]+ " ");
 
-
             Console.ReadKey();
             Console.Clear();
             Console.WriteLine("C# have a data type enum");
