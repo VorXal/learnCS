@@ -45,6 +45,58 @@ namespace learn
             Console.WriteLine("Sorted array: ");
             for(int i = 0;i < mas.Length; i++)
                 Console.Write(mas[i]+ " ");
+
+
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("C# have a data type enum");
+            Console.WriteLine("Let's try to work with enum");
+            Console.WriteLine("Best example, when I can find it's example with math operation");
+            Console.WriteLine("Check this in code :)");
+            MathOp(2.0,13.0, Operation.Subtract);
+            
+            Console.WriteLine("Кортеж - one more data type in C#");
+            (int, int) a = (2,4);
+            Console.WriteLine("Result is: {0}", Pow(a));
+        }
+
+        static int Pow((int number, int count) a){
+            int n = a.number;
+            for(int i = 0; i<a.count-1; i++)
+                a.number *= n;
+            return a.number;
+        }
+
+
+        enum Operation
+        {
+        Add = 1,
+        Subtract,
+        Multiply,
+        Divide
+        }
+ 
+        static void MathOp(double x, double y, Operation op)
+        {
+        double result = 0.0;
+ 
+        switch (op)
+        {
+            case Operation.Add:
+                result = x + y;
+                break;
+            case Operation.Subtract:
+                result = x - y;
+                break;
+            case Operation.Multiply:
+                result = x * y;
+                break;
+            case Operation.Divide:
+                result = x / y;
+                break;
+        }
+ 
+        Console.WriteLine("Result is {0}", result);
         }
 
         static void BubbleSort(int[] array){
