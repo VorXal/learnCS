@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace learn
 {
-    class Program
+    class Chapter2
     {
         static void Main(string[] args)
         {
