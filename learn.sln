@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn", "learn\learn.csproj", "{6C79E708-1892-4482-9113-4A6343FCAA92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2", "learn\Chapter2.csproj", "{6C79E708-1892-4482-9113-4A6343FCAA92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3rd Chapter", "3rd Chapter\3rd Chapter.csproj", "{486A4F76-9F73-44FA-B1CC-025AEDD93301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter3", "Chapter3\Chapter3.csproj", "{940613FF-7A59-4D10-8E9F-4EE3E9CEDDD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{486A4F76-9F73-44FA-B1CC-025AEDD93301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{486A4F76-9F73-44FA-B1CC-025AEDD93301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{486A4F76-9F73-44FA-B1CC-025AEDD93301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940613FF-7A59-4D10-8E9F-4EE3E9CEDDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940613FF-7A59-4D10-8E9F-4EE3E9CEDDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940613FF-7A59-4D10-8E9F-4EE3E9CEDDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940613FF-7A59-4D10-8E9F-4EE3E9CEDDD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
