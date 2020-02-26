@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace learn
 {
-    class Program
+    class Chapter2
     {
         static void Main(string[] args)
         {
@@ -45,7 +45,6 @@ namespace learn
             Console.WriteLine("Sorted array: ");
             for(int i = 0;i < mas.Length; i++)
                 Console.Write(mas[i]+ " ");
-
 
             Console.ReadKey();
             Console.Clear();
